@@ -1,6 +1,13 @@
 Volley-demo
 ===========
 
+ (1)  JSON，图像等的异步下载；
+ (2)  网络请求的排序（scheduling）
+ (3)  网络请求的优先级处理
+ (4)  缓存
+ (5)  多级别取消请求
+ (6)  和Activity和生命周期的联动（Activity结束时同时取消所有网络请求）
+
 An demonstration of Volley - HTTP library announced by google in I/O 2013. 
 
 ## Play Store Link for demo download  
@@ -640,5 +647,4 @@ before parsing the response avoiding wasteful CPU cycles.
  See the License for the specific language governing permissions and
  limitations under the License.
 ```
-
 
